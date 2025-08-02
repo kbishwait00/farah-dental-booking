@@ -1,0 +1,1 @@
+// Final script.js with booking & cancel appointment functionality will go here
