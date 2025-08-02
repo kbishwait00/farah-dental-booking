@@ -6,17 +6,30 @@ body, html {
   height: 100%;
 }
 .background {
-  background: linear-gradient(to bottom, #ffd6f6, #c5dfff, #e0cfff);
+  background: url('utopia-background.jpg') no-repeat center center/cover;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
-.content {
-  background: white;
-  padding: 2em;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  width: 90%;
-  max-width: 400px;
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+button {
+  padding: 1em 2em;
+  font-size: 1.2em;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
