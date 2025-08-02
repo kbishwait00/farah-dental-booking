@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+}
+.hero {
+  text-align: center;
+  margin-top: 20%;
+  color: white;
+}
+button {
+  padding: 1em 2em;
+  margin: 1em;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #fff;
+  color: #333;
+}
